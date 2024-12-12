@@ -24,103 +24,110 @@
   <body>
     <!--theme changer-->
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"id="bd-theme"type="button"aria-expanded="false"data-bs-toggle="dropdown"aria-label="Toggle theme(auto)">
-        <i class="bi bi-circle-half me-2 opacity-50"></i>
-        <span class="visually-hidden"id="bd-theme-text">Toggle theme</span>
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <i class="bi bi-circle-half theme-icon-active me-2"></i>
+        Theme
       </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow"aria-labelledby="bd-theme-text">
+      <ul class="dropdown-menu dropdown-menu-end shadow">
         <li>
-          <button type="button" class="dropdown-item d-flex align-items-center"data-bs-theme-value="light"aria-pressed="false">
-            <i class="bi bi-sun-fill me-2 opacity-50"></i>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+            <i class="bi bi-sun-fill me-2"></i>
             Light
-            <svg class="bi ms-auto d-none"width="1em"height="1em">
-              <use href="#check2"></use>
-            </svg>
           </button>
         </li>
         <li>
-          <button type="button"class="dropdown-item d-flex align-items-center"data-bs-theme-value="dark"aria-pressed="false">
-            <i class="bi bi-moon-stars-fill me-2 opacity-50"></i>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+            <i class="bi bi-moon-stars-fill me-2"></i>
             Dark
-            <svg class="bi ms-auto d-none"width="1em"height="1em">
-              <use href="#check2"></use>
-            </svg>
           </button>
         </li>
         <li>
-          <button type="button"class="dropdown-item d-flex align-items-center active"data-bs-theme-value="auto"aria-pressed="true">
-            <i class="bi bi-circle-half me-2 opacity-50"></i>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+            <i class="bi bi-circle-half me-2"></i>
             Auto
-            <svg class="bi ms-auto d-none"width="1em"height="1em">
-              <use href="#check2"></use>
-            </svg>
           </button>
         </li>
       </ul>
     </div>
     <!--navbar-->
-    <nav class="navbar navbar-expand-xl bg-body py-3">
+    <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm sticky-top py-2">
       <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="./index.html">
-          <span class="fw-bold fs-4">
-            <img src="./img/logo.png" width="30" height="30">
-          </span>
-          <span>Gusa Travels</span>
+        <a class="navbar-brand" href="./index.html">
+          <img src="./img/logo.png" alt="Gusa Travels Logo" class="navbar-logo">
         </a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-3">
-          <span class="visually-hidden">Toggle navigation</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="navcol-3" class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link active" href="./html/about.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./html/adventure.html">Our adventure</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./html/gorilla.html">Gorillas & Safaris</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./html/uganda.html">About Uganda</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./html/contact.html">Contact Us</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./html/review.html">Reviews</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./html/safari.html">Safari News</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/adventure.html">Our Adventure</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/gorilla.html">Gorillas & Safaris</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/uganda.html">About Uganda</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/contact.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/review.html">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="./html/safari.html">Safari News</a></li>
           </ul>
-          <button class="btn btn-primary" type="button"><a href="">Get A Free Quote</a></button>
+          <a href="./html/book.html" class="btn btn-primary text-white nav-cta">Get A Free Quote</a>
         </div>
       </div>
     </nav>
     <!--content-->
     
     <!--footer-->
-    <footer class="footer bg-body text-body py-4">
+    <footer class="footer bg-dark text-light py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="d-flex align-items-center mb-3">
-              <img src="./img/logo.png" alt="Gusa Travels Logo" width="50" height="50" class="me-2">
-              <span class="fs-4 fw-bold">Gusa Travels</span>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Quick Links</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="./html/about.html">About Us</a></li>
+              <li><a href="./html/adventure.html">Our Adventures</a></li>
+              <li><a href="./html/gorilla.html">Gorillas & Safaris</a></li>
+              <li><a href="./html/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Useful Links</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="./html/book.html">Book Now</a></li>
+              <li><a href="./html/review.html">Reviews</a></li>
+              <li><a href="./html/safari.html">Safari News</a></li>
+              <li><a href="./html/frequent.html">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Contact Info</h5>
+            <p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>Plot 1238, Naalya, Kampala, Uganda</p>
+            <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+256 393 248487</p>
+            <p class="mb-2"><i class="bi bi-envelope-fill me-2"></i>info@gusatravels.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Follow Us</h5>
+            <div class="d-flex social-links">
+              <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-linkedin"></i></a>
             </div>
-            <p>Gusa Travels is dedicated to providing the best travel experiences in Uganda. Our team is passionate about adventure and exploration.</p>
-          </div>
-          <div class="col-md-4">
-            <h5 class="mb-3">Quick Links</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="./html/about.html" class="text-decoration-none fw-bold">About Us</a></li>
-              <li class="mb-2"><a href="./html/adventure.html" class="text-decoration-none fw-bold">Our Adventure</a></li>
-              <li class="mb-2"><a href="./html/gorilla.html" class="text-decoration-none fw-bold">Gorillas & Safaris</a></li>
-              <li class="mb-2"><a href="./html/contact.html" class="text-decoration-none fw-bold">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h5 class="mb-3">Follow Us</h5>
-            <ul class="list-unstyled d-flex">
-              <li class="me-3"><a href="https://www.facebook.com/gusatravels" class="text-decoration-none fs-4"><i class="bi bi-facebook"></i></a></li>
-              <li class="me-3"><a href="https://twitter.com/gusatravels" class="text-decoration-none fs-4"><i class="bi bi-twitter"></i></a></li>
-              <li class="me-3"><a href="https://www.instagram.com/gusatravelsuganda/" class="text-decoration-none fs-4"><i class="bi bi-instagram"></i></a></li>
-              <li class="me-3"><a href="https://www.youtube.com/@gusatravels" class="text-decoration-none fs-4"><i class="bi bi-youtube"></i></a></li>
-              <li class="me-3"><a href="mailto:info@gusatravels.com" class="text-decoration-none fs-4"><i class="bi bi-envelope"></i></a></li>
-              <li><a href="https://gusatravels.com" class="text-decoration-none fs-4"><i class="bi bi-globe"></i></a></li>
-            </ul>
+            <div class="mt-4">
+              <h6 class="text-white mb-3">Newsletter</h6>
+              <form class="footer-subscribe">
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                  <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="text-center mt-4 border-top pt-3">
-          <p class="mb-0">&copy; 2024 Gusa Travels. All Rights Reserved. | Designed by <a href="https://github.com/Ssaava-Adam" class="text-decoration-none fw-bold">Ssaava Adam</a></p>
+        <div class="border-top border-secondary mt-4 pt-4 text-center">
+          <p class="mb-0">&copy; <span class="current-year">2024</span> Gusa Travels. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

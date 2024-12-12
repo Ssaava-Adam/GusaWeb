@@ -24,42 +24,38 @@
 <body>
 <!--theme changer-->
   <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-   <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"id="bd-theme"type="button"aria-expanded="false"data-bs-toggle="dropdown"aria-label="Toggle theme(auto)">
-    <i class="bi bi-circle-half me-2 opacity-50"></i>
-    <span class="visually-hidden"id="bd-theme-text">Toggle theme</span>
-   </button>
-   <ul class="dropdown-menu dropdown-menu-end shadow"aria-labelledby="bd-theme-text">
-    <li>
-     <button type="button" class="dropdown-item d-flex align-items-center"data-bs-theme-value="light"aria-pressed="false">
-      <i class="bi bi-sun-fill me-2 opacity-50"></i>
-       Light
-      <svg class="bi ms-auto d-none"width="1em"height="1em">
-       <use href="#check2"></use>
-      </svg>
-     </button>
-    </li>
-    <li>
-      <button type="button"class="dropdown-item d-flex align-items-center"data-bs-theme-value="dark"aria-pressed="false">
-       <i class="bi bi-moon-stars-fill me-2 opacity-50"></i>
-        Dark
-       <svg class="bi ms-auto d-none"width="1em"height="1em">
-        <use href="#check2"></use>
-       </svg>
-      </button>
-     </li>
-     <li>
-      <button type="button"class="dropdown-item d-flex align-items-center active"data-bs-theme-value="auto"aria-pressed="true">
-       <i class="bi bi-circle-half me-2 opacity-50"></i>
-        Auto
-       <svg class="bi ms-auto d-none"width="1em"height="1em">
-        <use href="#check2"></use>
-       </svg>
-      </button>
-     </li>
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+            id="bd-theme"
+            type="button"
+            aria-expanded="false"
+            data-bs-toggle="dropdown"
+            aria-label="Toggle theme (auto)">
+      <i class="bi bi-circle-half theme-icon-active me-2"></i>
+      Theme
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow">
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+          <i class="bi bi-sun-fill me-2"></i>
+          Light
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+          <i class="bi bi-moon-stars-fill me-2"></i>
+          Dark
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+          <i class="bi bi-circle-half me-2"></i>
+          Auto
+        </button>
+      </li>
     </ul>
-   </div>
+  </div>
 <!--navbar-->
-   <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm sticky-top py-2">
+   <nav class="navbar navbar-expand-xl sticky-top py-2">
     <div class="container">
      <a class="navbar-brand" href="../index.html">
         <img src="../img/logo.png" alt="Gusa Travels Logo" class="navbar-logo">
@@ -90,124 +86,124 @@
        <p class="lead mb-5">Ready to plan your Uganda adventure? Our team is here to help create your perfect safari experience.</p>
       
        <div class="contact-details mb-5">
-        <div class="contact-item d-flex align-items-center mb-3 p-3 rounded bg-light">
+        <div class="contact-item d-flex align-items-center mb-3 p-3 rounded">
          <div class="icon-box me-3 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
           <i class="bi bi-envelope-fill"></i>
          </div>
          <div>
           <h5 class="mb-1">Email Us</h5>
-          <a href="mailto:gusatravels1@gmail.com" class="text-decoration-none text-body">gusatravels1@gmail.com</a>
+          <p class="mb-0">info@gusatravels.com</p>
          </div>
         </div>
-
-        <div class="contact-item d-flex align-items-center mb-3 p-3 rounded bg-light">
-         <div class="icon-box me-3 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
-          <i class="bi bi-whatsapp"></i>
-         </div>
-         <div>
-          <h5 class="mb-1">WhatsApp</h5>
-          <a href="https://wa.me/256752344552" class="text-decoration-none text-body">+256 752344552</a>
-         </div>
-        </div>
-
-        <div class="contact-item d-flex align-items-center mb-3 p-3 rounded bg-light">
+        
+        <div class="contact-item d-flex align-items-center mb-3 p-3 rounded">
          <div class="icon-box me-3 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
           <i class="bi bi-telephone-fill"></i>
          </div>
          <div>
           <h5 class="mb-1">Call Us</h5>
-          <a href="tel:+256393371137" class="text-decoration-none text-body">+256 393371137</a>
+          <p class="mb-0">+256 393 248487</p>
          </div>
         </div>
-       </div>
-
-       <div class="social-media">
-        <h5 class="mb-3">Follow Our Adventures</h5>
-        <div class="d-flex gap-3">
-         <a href="https://www.youtube.com/@GusaTravels" class="social-icon bg-light p-2 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" target="_blank">
-          <i class="bi bi-youtube text-danger"></i>
-         </a>
-         <a href="https://www.x.com/gusatravels" class="social-icon bg-light p-2 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" target="_blank">
-          <i class="bi bi-twitter-x text-dark"></i>
-         </a>
-         <a href="https://www.facebook.com/GusaTravels" class="social-icon bg-light p-2 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" target="_blank">
-          <i class="bi bi-facebook text-primary"></i>
-         </a>
-         <a href="https://www.instagram.com/gusatravelsuganda" class="social-icon bg-light p-2 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" target="_blank">
-          <i class="bi bi-instagram text-danger"></i>
-         </a>
+        
+        <div class="contact-item d-flex align-items-center mb-3 p-3 rounded">
+         <div class="icon-box me-3 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+          <i class="bi bi-geo-alt-fill"></i>
+         </div>
+         <div>
+          <h5 class="mb-1">Visit Us</h5>
+          <p class="mb-0">Plot 1238, Naalya, Kampala, Uganda</p>
+         </div>
         </div>
        </div>
       </div>
      </div>
-
+     
      <div class="col-lg-7">
-      <div class="card border-0 shadow-lg rounded-4">
-       <div class="card-body p-4 p-md-5">
-        <h3 class="card-title mb-4">Send Us a Message</h3>
+      <div class="contact-form p-4 p-lg-5 rounded">
         <form id="contactForm" action="https://formspree.io/f/xqakjaqy" method="POST">
-         <div class="row g-3">
-          <div class="col-md-6">
-           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-            <label for="name">Your Name</label>
-           </div>
-          </div>
-          <div class="col-md-6">
-           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
-            <label for="email">Email Address</label>
-           </div>
-          </div>
-          <div class="col-12">
-           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-            <label for="subject">Subject</label>
-           </div>
-          </div>
-          <div class="col-12">
-           <div class="form-floating mb-3">
-            <textarea class="form-control" id="message" name="message" placeholder="Your Message" style="height: 150px" required></textarea>
-            <label for="message">Your Message</label>
-           </div>
-          </div>
-          <div class="col-12">
-           <button type="submit" class="btn btn-primary btn-lg w-100 text-white position-relative">
-            <span class="submit-text">Send Message</span>
-            <span class="spinner-border spinner-border-sm ms-2 d-none" role="status" aria-hidden="true"></span>
-           </button>
-          </div>
-         </div>
-        </form>
-       </div>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                  <label for="name">Your Name</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="email" name="_replyto" placeholder="Your Email" required>
+                  <label for="email">Your Email</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject" required>
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating">
+                  <textarea class="form-control" id="message" name="message" placeholder="Message" style="height: 150px" required></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+              <div class="col-12 mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="termsCheck" name="terms_accepted" required>
+                  <label class="form-check-label" for="termsCheck">
+                    By contacting us, you confirm that you have read and agreed to our <a href="../html/condition.html" class="text-primary">Terms and Conditions</a>
+                  </label>
+                </div>
+              </div>
+              <!-- Formspree redirect -->
+              <input type="hidden" name="_next" value="https://gusatravels.com/thank-you">
+              <input type="hidden" name="_subject" value="New Contact Form Submission">
+              <div class="col-12">
+                <button class="btn btn-primary w-100 py-3" type="submit">
+                  Send Message
+                  <i class="bi bi-arrow-right ms-2"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          
       </div>
      </div>
     </div>
    </div>
 <!--map section-->
-   <div class="container-fluid mt-5">
-       <div class="row">
-        <div class="col-12">
-         <h3 class="text-center mb-4">Our Location</h3>
-         <p class="text-center mb-4">
-          <i class="bi bi-geo-alt-fill me-2"></i>
-          P.O. Box 111714 Kampala – Uganda<br>
-          Plot 12 Luwum Street<br>
-          City Centre Complex 4th Floor Room J29
-         </p>
-         <div class="map-container" style="height: 400px;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.518089524134!2d32.57094527770996!3d0.312319800000011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc80d7400001%3A0x1cde9bca6f37165e!2sCity%20Centre%20Complex!5e0!3m2!1sen!2sus!4v1734021709382!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </iframe>
-         </div>
-        </div>
+   <section class="map-section py-5">
+    <div class="container">
+     <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-4">
+       <h2 class="display-6 fw-bold mb-4">Find Us Here</h2>
+       <p class="lead mb-5">Visit our office in Kampala, Uganda</p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-12">
+       <div class="map-container rounded overflow-hidden" style="height: 450px;">
+        <iframe 
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.753855742071!2d32.57391937492827!3d0.3137499997255666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc80d7400001%3A0x1cde9bca6f37165e!2sCity%20Centre%20Complex%2C%20Luwum%20St%2C%20Kampala%2C%20Uganda!5e0!3m2!1sen!2s!4v1707829086465!5m2!1sen!2s"
+         width="100%" 
+         height="100%" 
+         style="border:0;" 
+         allowfullscreen="" 
+         loading="lazy" 
+         referrerpolicy="no-referrer-when-downgrade"
+         title="Gusa Travels Office Location - City Centre Complex, Luwum Street, Kampala">
+        </iframe>
        </div>
       </div>
+     </div>
+    </div>
+   </section>
 <!--footer-->
-   <footer class="footer bg-dark text-light py-5">
+   <footer class="footer py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <h5 class="mb-4">Quick Links</h5>
                     <ul class="list-unstyled footer-links">
                         <li><a href="../html/about.html">About Us</a></li>
                         <li><a href="../html/adventure.html">Our Adventures</a></li>
@@ -216,7 +212,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Useful Links</h5>
+                    <h5 class="mb-4">Useful Links</h5>
                     <ul class="list-unstyled footer-links">
                         <li><a href="../html/book.html">Book Now</a></li>
                         <li><a href="../html/review.html">Reviews</a></li>
@@ -225,13 +221,13 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Contact Info</h5>
+                    <h5 class="mb-4">Contact Info</h5>
                     <p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>Plot 1238, Naalya, Kampala, Uganda</p>
                     <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+256 393 248487</p>
                     <p class="mb-2"><i class="bi bi-envelope-fill me-2"></i>info@gusatravels.com</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Follow Us</h5>
+                    <h5 class="mb-4">Follow Us</h5>
                     <div class="d-flex social-links">
                         <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
                         <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
@@ -239,7 +235,7 @@
                         <a href="#" class="me-3"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <div class="mt-4">
-                        <h6 class="text-white mb-3">Newsletter</h6>
+                        <h6 class="mb-3">Newsletter</h6>
                         <form class="footer-subscribe">
                             <div class="input-group">
                                 <input type="email" class="form-control" placeholder="Your Email">
