@@ -1,0 +1,56 @@
+Required Images for Gusa Travels Website
+Last Updated: 2024-12-17
+
+1. Hero Background Image (hero-1.jpg)
+   - Current Placeholder: /img/fallback.jpg
+   - Required Size: 1920x1080px (16:9 ratio)
+   - File Format: JPG
+   - Max File Size: 500KB
+   - Description: A stunning landscape or wildlife photo of Uganda featuring either:
+     * Mountain gorillas in their natural habitat
+     * Scenic view of Bwindi Impenetrable Forest
+     * Dramatic African sunset with wildlife silhouettes
+   - Usage: Hero section background
+
+2. Gorilla Trekking Card Image (gorilla-trek.jpg)
+   - Current Placeholder: /img/fallback.jpg
+   - Required Size: 800x600px (4:3 ratio)
+   - File Format: JPG
+   - Max File Size: 300KB
+   - Description: Close-up shot of mountain gorillas in their natural habitat
+   - Usage: Featured tours card image
+
+3. Wildlife Safari Card Image (wildlife-safari.jpg)
+   - Current Placeholder: /img/fallback.jpg
+   - Required Size: 800x600px (4:3 ratio)
+   - File Format: JPG
+   - Max File Size: 300KB
+   - Description: Wildlife photo featuring iconic Ugandan animals (elephants, lions, or hippos)
+   - Usage: Featured tours card image
+
+4. Cultural Tour Card Image (cultural-tour.jpg)
+   - Current Placeholder: /img/fallback.jpg
+   - Required Size: 800x600px (4:3 ratio)
+   - File Format: JPG
+   - Max File Size: 300KB
+   - Description: Photo showcasing Ugandan cultural activities or traditional ceremonies
+   - Usage: Featured tours card image
+
+5. CTA Background Image (cta-bg.jpg)
+   - Current Placeholder: /img/fallback.jpg
+   - Required Size: 1920x1080px (16:9 ratio)
+   - File Format: JPG
+   - Max File Size: 500KB
+   - Description: Atmospheric image of Ugandan landscape or wildlife scene
+   - Usage: Call-to-action section background
+
+Image Guidelines:
+- All images should be high-quality and professionally shot
+- Images should be optimized for web use to ensure fast loading times
+- Consider using progressive JPEGs for better perceived loading performance
+- Images should represent the authentic beauty of Uganda and its wildlife
+- Avoid over-processed or heavily filtered images
+- Ensure proper licensing and attribution for all images
+- Consider accessibility by using appropriate alt text in HTML
+
+Note: Currently using /img/fallback.jpg as a placeholder for all images. Please replace with actual images matching the above specifications.
