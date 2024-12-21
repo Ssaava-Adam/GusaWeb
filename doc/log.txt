@@ -1,56 +1,101 @@
 Required Images for Gusa Travels Website
-Last Updated: 2024-12-17
+Last Updated: 2024-12-21
 
-1. Hero Background Image (hero-1.jpg)
+=== HOME PAGE ===
+1. Hero Section Image (hero-bg.jpg)
    - Current Placeholder: /img/fallback.jpg
-   - Required Size: 1920x1080px (16:9 ratio)
-   - File Format: JPG
-   - Max File Size: 500KB
-   - Description: A stunning landscape or wildlife photo of Uganda featuring either:
-     * Mountain gorillas in their natural habitat
-     * Scenic view of Bwindi Impenetrable Forest
-     * Dramatic African sunset with wildlife silhouettes
-   - Usage: Hero section background
+   - Size: 1920x1080px
+   - Description: Panoramic view of Uganda's landscape with wildlife
 
-2. Gorilla Trekking Card Image (gorilla-trek.jpg)
+2. Featured Tour Images (3 images)
    - Current Placeholder: /img/fallback.jpg
-   - Required Size: 800x600px (4:3 ratio)
-   - File Format: JPG
-   - Max File Size: 300KB
-   - Description: Close-up shot of mountain gorillas in their natural habitat
-   - Usage: Featured tours card image
+   - Size: 800x600px each
+   - Description: Gorilla trekking, Wildlife safari, Cultural experience
 
-3. Wildlife Safari Card Image (wildlife-safari.jpg)
+3. Testimonial Author Images (3 images)
    - Current Placeholder: /img/fallback.jpg
-   - Required Size: 800x600px (4:3 ratio)
-   - File Format: JPG
-   - Max File Size: 300KB
-   - Description: Wildlife photo featuring iconic Ugandan animals (elephants, lions, or hippos)
-   - Usage: Featured tours card image
+   - Size: 150x150px
+   - Description: Professional headshots of testimonial authors
 
-4. Cultural Tour Card Image (cultural-tour.jpg)
+=== ABOUT US PAGE ===
+4. Team Member Photos (4-6 images)
    - Current Placeholder: /img/fallback.jpg
-   - Required Size: 800x600px (4:3 ratio)
-   - File Format: JPG
-   - Max File Size: 300KB
-   - Description: Photo showcasing Ugandan cultural activities or traditional ceremonies
-   - Usage: Featured tours card image
+   - Size: 400x500px
+   - Description: Professional photos of team members
 
-5. CTA Background Image (cta-bg.jpg)
+5. Company History Image
    - Current Placeholder: /img/fallback.jpg
-   - Required Size: 1920x1080px (16:9 ratio)
-   - File Format: JPG
-   - Max File Size: 500KB
-   - Description: Atmospheric image of Ugandan landscape or wildlife scene
-   - Usage: Call-to-action section background
+   - Size: 1200x800px
+   - Description: Historical or milestone company photo
+
+=== ADVENTURE PAGE ===
+6. Wildlife Safari Images (6 images)
+   - Current Placeholder: /img/fallback.jpg
+   - Size: 800x600px
+   - Description: Big 5 animals, scenic park views
+
+7. Gorilla Trek Images (4 images)
+   - Current Placeholder: /img/fallback.jpg
+   - Size: 800x600px
+   - Description: Mountain gorillas in natural habitat
+
+8. Bird Watching Images (3 images)
+   - Current Placeholder: /img/fallback.jpg
+   - Size: 800x600px
+   - Description: Rare bird species of Uganda
+
+=== GORILLA PAGE ===
+9. Gorilla Family Images (5 images)
+   - Current Placeholder: /img/fallback.jpg
+   - Size: 800x600px
+   - Description: Different gorilla families in Bwindi
+
+10. Trekking Experience Images (4 images)
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 800x600px
+    - Description: Trekking through forest, guides, scenery
+
+=== UGANDA PAGE ===
+11. National Parks Images (10 images)
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 800x600px
+    - Description: One image per national park
+
+12. Cultural Heritage Images (5 images)
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 800x600px
+    - Description: Traditional ceremonies, crafts, people
+
+=== CONTACT PAGE ===
+13. Office Location Image
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 600x400px
+    - Description: Office building or reception area
+
+14. Team Contact Images (3 images)
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 300x300px
+    - Description: Support team headshots
+
+=== REVIEW PAGE ===
+15. Customer Experience Images (8 images)
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 800x600px
+    - Description: Happy customers on various tours
+
+=== SAFARI NEWS PAGE ===
+16. News Article Images (6 images)
+    - Current Placeholder: /img/fallback.jpg
+    - Size: 800x600px
+    - Description: Recent safari and wildlife photos
 
 Image Guidelines:
-- All images should be high-quality and professionally shot
-- Images should be optimized for web use to ensure fast loading times
-- Consider using progressive JPEGs for better perceived loading performance
-- Images should represent the authentic beauty of Uganda and its wildlife
-- Avoid over-processed or heavily filtered images
-- Ensure proper licensing and attribution for all images
-- Consider accessibility by using appropriate alt text in HTML
+- All images should be professionally shot
+- Optimize for web performance (max 500KB for large images)
+- Use progressive JPEGs
+- Include proper alt text
+- Ensure proper licensing
+- Maintain consistent aspect ratios
+- Consider mobile responsiveness
 
-Note: Currently using /img/fallback.jpg as a placeholder for all images. Please replace with actual images matching the above specifications.
+Note: Currently using /img/fallback.jpg as placeholder. Replace with actual images matching specifications.
